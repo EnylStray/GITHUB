@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "celesty:items/needle_item_texture"
+  }
+}

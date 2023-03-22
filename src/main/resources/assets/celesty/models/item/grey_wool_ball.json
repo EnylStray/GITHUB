@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "celesty:items/grey_wool_ball_item_texture"
+  }
+}

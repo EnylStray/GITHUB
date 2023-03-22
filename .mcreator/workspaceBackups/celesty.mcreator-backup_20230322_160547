@@ -1,0 +1,408 @@
+{
+  "mod_elements": [
+    {
+      "name": "WireSpool",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wire_spool",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/celesty/models/item/wire_spool.json",
+          "src/main/java/net/mcreator/celesty/item/WireSpoolItem.java"
+        ]
+      }
+    },
+    {
+      "name": "WireSpoolCraft",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wire_spool_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/celesty/recipes/wire_spool_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "Needle",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "needle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/celesty/item/NeedleItem.java",
+          "src/main/resources/assets/celesty/models/item/needle.json",
+          "src/main/java/net/mcreator/celesty/item/inventory/NeedleInventoryCapability.java"
+        ]
+      }
+    },
+    {
+      "name": "WhiteWoolball",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_woolball",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/celesty/item/WhiteWoolballItem.java",
+          "src/main/resources/assets/celesty/models/item/white_woolball.json"
+        ]
+      }
+    },
+    {
+      "name": "GreyWoolBall",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grey_wool_ball",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/celesty/models/item/grey_wool_ball.json",
+          "src/main/java/net/mcreator/celesty/item/GreyWoolBallItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DarkGreyWoolBall",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_grey_wool_ball",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/celesty/item/DarkGreyWoolBallItem.java",
+          "src/main/resources/assets/celesty/models/item/dark_grey_wool_ball.json"
+        ]
+      }
+    },
+    {
+      "name": "BlackWoolBall",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_wool_ball",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/celesty/models/item/black_wool_ball.json",
+          "src/main/java/net/mcreator/celesty/item/BlackWoolBallItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BrownWoolBall",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_wool_ball",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/celesty/models/item/brown_wool_ball.json",
+          "src/main/java/net/mcreator/celesty/item/BrownWoolBallItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PurpleWoolBall",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_wool_ball",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/celesty/item/PurpleWoolBallItem.java",
+          "src/main/resources/assets/celesty/models/item/purple_wool_ball.json"
+        ]
+      }
+    },
+    {
+      "name": "MagentaWoolBall",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_wool_ball",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/celesty/models/item/magenta_wool_ball.json",
+          "src/main/java/net/mcreator/celesty/item/MagentaWoolBallItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PinkWoolBall",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_wool_ball",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/celesty/models/item/pink_wool_ball.json",
+          "src/main/java/net/mcreator/celesty/item/PinkWoolBallItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RedWoolBall",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_wool_ball",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/celesty/item/RedWoolBallItem.java",
+          "src/main/resources/assets/celesty/models/item/red_wool_ball.json"
+        ]
+      }
+    },
+    {
+      "name": "OrangeWoolBall",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_wool_ball",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/celesty/item/OrangeWoolBallItem.java",
+          "src/main/resources/assets/celesty/models/item/orange_wool_ball.json"
+        ]
+      }
+    },
+    {
+      "name": "YellowWoolBall",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_wool_ball",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/celesty/item/YellowWoolBallItem.java",
+          "src/main/resources/assets/celesty/models/item/yellow_wool_ball.json"
+        ]
+      }
+    },
+    {
+      "name": "LimeWoolBall",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_wool_ball",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/celesty/item/LimeWoolBallItem.java",
+          "src/main/resources/assets/celesty/models/item/lime_wool_ball.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenWoolBall",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_wool_ball",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/celesty/item/GreenWoolBallItem.java",
+          "src/main/resources/assets/celesty/models/item/green_wool_ball.json"
+        ]
+      }
+    },
+    {
+      "name": "LightBlueWoolBall",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_wool_ball",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/celesty/item/LightBlueWoolBallItem.java",
+          "src/main/resources/assets/celesty/models/item/light_blue_wool_ball.json"
+        ]
+      }
+    },
+    {
+      "name": "CyanWoolBall",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_wool_ball",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/celesty/item/CyanWoolBallItem.java",
+          "src/main/resources/assets/celesty/models/item/cyan_wool_ball.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueWoolBall",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_wool_ball",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/celesty/models/item/blue_wool_ball.json",
+          "src/main/java/net/mcreator/celesty/item/BlueWoolBallItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Button",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "button",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/celesty/item/ButtonItem.java",
+          "src/main/resources/assets/celesty/models/item/button.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftNeedle",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_needle",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/celesty/recipes/craft_needle.json"
+        ]
+      }
+    },
+    {
+      "name": "NeedleGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "needle_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/celesty/client/gui/NeedleGUIScreen.java",
+          "src/main/java/net/mcreator/celesty/network/NeedleGUIButtonMessage.java",
+          "src/main/java/net/mcreator/celesty/world/inventory/NeedleGUIMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "NeedleGUIQuandLeGUIEstOuvert",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "needle_gui_quand_le_gui_est_ouvert",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/celesty/procedures/NeedleGUIQuandLeGUIEstOuvertProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NeedleEvenementAuClicDroitDansLair",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "needle_evenement_au_clic_droit_dans_lair",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/celesty/procedures/NeedleEvenementAuClicDroitDansLairProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Knit",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.celesty.black_wool_ball": "Black Wool Ball",
+      "item.celesty.red_wool_ball": "Red Wool Ball",
+      "item.celesty.yellow_wool_ball": "Yellow Wool Ball",
+      "item.celesty.magenta_wool_ball": "Magenta Wool Ball",
+      "item.celesty.button": "Button",
+      "item.celesty.purple_wool_ball": "Purple Wool Ball",
+      "gui.celesty.needle_gui.label_knitting": "Knitting",
+      "item.celesty.light_blue_wool_ball": "Light Blue Wool Ball",
+      "item.celesty.dark_grey_wool_ball": "Dark Grey Wool Ball",
+      "item.celesty.blue_wool_ball": "Blue Wool Ball",
+      "item.celesty.white_woolball": "White Woolball",
+      "item.celesty.cyan_wool_ball": "Cyan Wool Ball",
+      "item.celesty.needle": "Needle",
+      "item.celesty.green_wool_ball": "Green Wool Ball",
+      "item.celesty.pink_wool_ball": "Pink Wool Ball",
+      "item.celesty.lime_wool_ball": "Lime Wool Ball",
+      "item.celesty.grey_wool_ball": "Grey Wool Ball",
+      "item.celesty.orange_wool_ball": "Orange Wool Ball",
+      "item.celesty.brown_wool_ball": "Brown Wool Ball",
+      "item.celesty.wire_spool": "Wire Spool"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "celesty",
+    "modName": "Celesty",
+    "version": "1.0.0",
+    "author": "Windows, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.celesty",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
